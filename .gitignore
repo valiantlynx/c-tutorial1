@@ -1,0 +1,11 @@
+/*.exe
+.idea
+.dist
+.vscode
+bin
+cmake-build-*
+obj
+venv
+*.db
+*.pyc
+*.swp
