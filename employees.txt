@@ -1,0 +1,11 @@
+Jim, salesman
+Pam, receptionist
+Oskar, Accounting
+Jim, salesman
+Pam, receptionist
+Oskar, AccountingJim, salesman
+Pam, receptionist
+Oskar, Accounting
+Kelly, salesman
+Oman, receptionist
+Linn, Accounting

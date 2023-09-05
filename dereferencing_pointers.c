@@ -2,7 +2,6 @@
 
 int main()
 {
-    //pointers is just a datatype. of memory addresses
     int age = 30;
     int * pAge = &age;
     float gpa = 6.0;
@@ -10,6 +9,8 @@ int main()
     char grade = 'A';
     char * pGrade = &grade;
 
-    printf("age: %p\ngpa: %p\ngrade: %p ", pAge, pGpa, pGrade);
+    printf("age: %p\ngpa: %p\ngrade: %p\n", pAge, pGpa, pGrade);
+    //dereference it with * before the pointer name
+    printf("dereferenced age: %i\ndereferenced gpa: %f\ndereferenced grade: %c\n", *pAge, *&gpa, *pGrade);
     return 0;
 }

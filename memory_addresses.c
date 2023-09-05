@@ -2,21 +2,10 @@
 
 int main()
 {
-    //alternative
-    int i;
-    while (i <= 5 ){
-        printf("%i: \n", i);
-        i++;
-    }
+    int age = 30;
+    float gpa = 6.0;
+    char grade = 'A';
 
-    //for loop below condenses all the code above into one fuc
-    for (int i = 0; i <= 5; ++i) {
-        printf("%i: \n", i);
-    }
-
-    int array1[] = {4,7,9,10,21, 45};
-    for (int i = 0; i <= 5; ++i) {
-        printf("%i: \n", array1[i]);
-    }
+    printf("age: %p\ngpa: %p\ngrade: %p ",&age, &gpa, &grade);
     return 0;
 }
